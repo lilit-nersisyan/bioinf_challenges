@@ -24,3 +24,5 @@ The true number of telomeric strings will be known a priory. The adjusted R squa
 This is a competitive challenge: the accuracy of submissions will be used to determine the winning solution. 
 
 ## Timeline
+
+# Biology: where is this applicable? 
