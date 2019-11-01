@@ -8,8 +8,8 @@ The strings have the following characteristics:
 
 The rules defining a telomeric string are:  
 - They largely consist of telomeric motifs 
-- A telomeric motif is defined by a rule: (TG){1,7}GGTGTG(G)?
-- The ending of the string may lack telomeric motifs 
+- A telomeric motif is defined by the rule: (TG){1,7}GGTGTG(G)?
+- The beginning of the string may lack telomeric motifs 
 - With small frequency, the motifs may be separated by one-two letters
 - The motifs may have errors: substitution (replacement of one character with another from the dictionary {A,G,C,T,N}), insertion (a novel character in-between motif characters) or deletion (removal of one character)
 
