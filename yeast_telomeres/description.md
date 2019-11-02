@@ -41,4 +41,30 @@ This is a competitive challenge: the accuracy of submissions will be used to det
 
 ## Timeline
 
-# Biology: where is this applicable? 
+# Biology: why is this interesting?
+
+# What are telomeres?
+Every living cell has a DNA. The DNA is a long double-stranded chain of four different types of molecules (nucleotides or bases) denoted as A, G, C or T, which store the genetic information. In each cell the DNA is fragmented into a few fragments, each of them called a chromosome. Human cells, for example, each have 23 pairs of chromosomes. The middle parts of each linear chromosome contain information that is used by the cell to produce anything it needs for performing its everyday tasks. The ending parts, however, do not explicitly store useful information, but have a peculiar structure. 
+
+The cell always repairs itself, and most importantly its DNA. If the chromosomes breaks into peaces, say under UV radiation, the cell immediately senses the breaks and glues them back together. The linear chromosomes, however also start and end with breaks and they need to find a way to conceal themselves from this repair process. This is where the telomeres step in. The starting and ending regions of the linear chromosomes have a specific sequence of bases, which allows them to form specific structures: knots. One of the strands in the DNA double-strand is longer than the other: this longer strands folds back onto the short one, forming a knot and saving the chromosome endpoints from being recognized as breaks.  
+
+This elegant solution to the chromosome endpoint problem, however, leads to yet another peculiarity of telomeres. When the cell wants to divide, it first replicates its DNA: makes two copies of each of the original strands. After making a copy, one of the strands is cut to make it shorter than the other, so that the telomeric knot can be formed. This, however, means that after each round of DNA replication, the telomeres will be cut and will become shorter and shorter. What happens when it gets so short that there are no telomeres left anymore? The cell stops dividing. And when the cells stop dividing, the tissues and organs loose the ability to repair themselves. This is what happens in the organisms of older people. 
+
+Now, the sequence of human chromosomes is built up of consecutive repeats of the form: TTAGGG. These repeats concatenated in one telomeric region may span on around 10.000 bases. For your comparison, all the human chromosomes together contain around 3bln bases of DNA. 
+
+## Telomeres and diseases 
+
+As you may guess, telomere shortening is one of the factors responsible for aging. Not surprisingly, they are also associated with age-related diseases, such as cardiovascular diseases and premature aging syndrome. Smoke, and you'll run the danger of making your telomeres shorter, thus increasing your risk of getting these disorders. 
+
+What about cancers? We know that tumors are formed by uncontrolled division of cells. Tumors know no limits: they may grow indefinitely, with cells dividing over and over again. How is this possible? Well, one of the factors that cancer cells have to take care of are telomeres. It appears, cancer cells know how to make their telomeres longer, thus being able to divide as many times as needed. Consequently, there are multiple medications and therapies targetted at telomeres. Those try to stop the process of telomere elongation in cancer cells thus controlling tumor growth. 
+
+## Yeast telomeres
+Yeast are unicellular fungi. They are frequently used in baking to make the dough soft and porous. Besides being useful in the kitchen, they are also great model organisms used by biologists in their laboratories. Even though yeast are not similar to us by their looks, the basic molecular events and processes largely resemble those in human cells. Therefore, studying telomeres in yeast will provide clues on how to control telomere length in humans too.
+
+As humans, yeast also have linear chromosomes ending with telomeric regions. The telomeres in yeast, however, have a different repeat pattern. This pattern is not strictly defined, but is a motif of the form: (TG){1,7}GGTGTG(G)?. Concatenate multiple repeats like this, each time choosing to repeat (TG) 1-to-7 times and either adding G at the end or not, and you'll get the sequence of yeast telomeres. 
+
+## How to study telomeres
+
+## DNA sequencing
+
+
