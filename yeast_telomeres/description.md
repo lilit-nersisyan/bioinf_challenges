@@ -14,6 +14,12 @@ The rules defining a telomeric string are:
 - The motifs may have errors: substitution (replacement of one character with another from the dictionary {A,G,C,T,N}), insertion (a novel character in-between motif characters) or deletion (removal of one character)
 
 ## Example
+For example: the following string is a telomeric one. 
+TGTGTGTGGGTGTGGTGTGTGTGTGTGTGGGTGTGGTGTGTGTGTGGGTGTGGGTGTGGTGTGTGTGT 
+
+Below is the break-up of the string. The motifs parts are defined within round brackets, while the errors are in square brackets: 
+(TGTGTGTG)(GGTGTG)(G)(TGTGTGTGTGTGT)[G](GGTGTG)(G)(TGTGTGTGTG)(G[G](TGTG)(GGTGTG)(G)(TGTGTGTGT)
+
 
 ## Challenge question
 Given a set of telomeric and non-telomeric strings, determine the nature of the strings and submit the number of telomeric strings as your answer. 
