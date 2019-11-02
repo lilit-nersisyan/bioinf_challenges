@@ -19,8 +19,8 @@ TGTGTGTGGGTGTGGTGTGTGTGTGTGTGGGTGTGGTGTGTGTGTGGGTGTGGGTGTGGTGTGTGTGT
 
 Below is the break-up of the string. The motifs parts are defined within round brackets, while the errors are in blue: 
 
-<span style="font-famiy:courier-new">
-{(TGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTG)(GGTGTG)(G)} <span style="color:red">[G]</span> {(TGTG[G]TGTGTGTGT)...}
+<span style="font-family:Courier new">
+{(TGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTG)(GGTGTG)(G)}</span> <span style="font-family:Courier new; color:red">[G]</span> <span style="font-family:Courier new">{(TGTG[G]TGTGTGTGT)...}
 </span>
 
 Other strings may appear to be half-telomeric, with the telomeric part starting after several characters: 
