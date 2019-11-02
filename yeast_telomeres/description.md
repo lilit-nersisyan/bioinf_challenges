@@ -17,14 +17,16 @@ The rules defining a telomeric string are:
 For example: the following string is a telomeric one. 
 TGTGTGTGGGTGTGGTGTGTGTGTGTGTGGGTGTGGTGTGTGTGTGGGTGTGGGTGTGGTGTGTGTGT 
 
-Below is the break-up of the string. The motifs parts are defined within round brackets, while the errors are in blue: 
+Below is the break-down of the string. The motifs are defined curly brackets, the motif-parts - within round brackets, while the errors are in square brackets: 
 
-<span style="font-family:Courier new">
-{(TGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTG)(GGTGTG)(G)}</span> <span style="font-family:Courier new; color:red">[G]</span> <span style="font-family:Courier new">{(TGTG[G]TGTGTGTGT)...}
-</span>
+<pre>
+{(TGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTG)(GGTGTG)(G)} [G]{(TGTG[G]TGTGTGTGT)...}
+</pre>
 
 Other strings may appear to be half-telomeric, with the telomeric part starting after several characters: 
+
 TAGGGTAGTGTTAGGGTAGTGTTAGGGTAGTGTGGTGTGGTGTGTGGGTGTGGGTGTGGGTGTGTGTGTGGGTGTGGTGTGTGGGTGTGGTGTGTGGGT
+
 <pre>
 [TAGGGTAGTGTTAGGGTAGTGTTAGGGTAG]{(TGTG)(G[-]TGTG)(G)} {(TGTGTG)(GGTGTG)(G)} [G] {(TGTG)(GGTGTG)} {(TGTGTG)(GGTGTG)(G)} {(TGTGTG)(GGTGTG)(G)} {(TGTGTG) (GGT)...}
 </pre>
