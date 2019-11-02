@@ -17,8 +17,9 @@ The rules defining a telomeric string are:
 For example: the following string is a telomeric one. 
 TGTGTGTGGGTGTGGTGTGTGTGTGTGTGGGTGTGGTGTGTGTGTGGGTGTGGGTGTGGTGTGTGTGT 
 
-Below is the break-up of the string. The motifs parts are defined within round brackets, while the errors are in square brackets: 
-(TGTGTGTG)(GGTGTG)(G)(TGTGTGTGTGTGT)[G](GGTGTG)(G)(TGTGTGTGTG)(G[G](TGTG)(GGTGTG)(G)(TGTGTGTGT)
+Below is the break-up of the string. The motifs parts are defined within round brackets, while the errors are in blue: 
+
+(TGTGTGTG)(GGTGTG)(G)(TGTGTGTGTGTGT)[G](GGTGTG)(G)(TGTGTGTGTG)(G)[G](TGTG)(GGTGTG)(G)(TGTGTGTGT)
 
 
 ## Challenge question
