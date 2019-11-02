@@ -19,13 +19,15 @@ TGTGTGTGGGTGTGGTGTGTGTGTGTGTGGGTGTGGTGTGTGTGTGGGTGTGGGTGTGGTGTGTGTGT
 
 Below is the break-up of the string. The motifs parts are defined within round brackets, while the errors are in blue: 
 
+<pre>
 {(TGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTG)(GGTGTG)(G)} [G] {(TGTG[G]TGTGTGTGT)...}
+</pre>
 
 Other strings may appear to be half-telomeric, with the telomeric part starting after several characters: 
 TAGGGTAGTGTTAGGGTAGTGTTAGGGTAGTGTGGTGTGGTGTGTGGGTGTGGGTGTGGGTGTGTGTGTGGGTGTGGTGTGTGGGTGTGGTGTGTGGGT
-
+<pre>
 [TAGGGTAGTGTTAGGGTAGTGTTAGGGTAG]{(TGTG)(G[-]TGTG)(G)} {(TGTGTG)(GGTGTG)(G)} [G] {(TGTG)(GGTGTG)} {(TGTGTG)(GGTGTG)(G)} {(TGTGTG)(GGTGTG)(G)} {(TGTGTG) (GGT)...}
-
+</pre>
 
 ## Challenge question
 Given a set of telomeric and non-telomeric strings, determine the nature of the strings and submit the number of telomeric strings as your answer. 
