@@ -43,16 +43,17 @@ This is a competitive challenge: the accuracy of submissions will be used to det
 
 # Biology: why is this interesting?
 
-# What are telomeres?
-Every living cell has a DNA. The DNA is a long double-stranded chain of four different types of molecules (nucleotides or bases) denoted as A, G, C or T, which store the genetic information. In each cell the DNA is fragmented into a few fragments, each of them called a chromosome. Human cells, for example, each have 23 pairs of chromosomes. The middle parts of each linear chromosome contain information that is used by the cell to produce anything it needs for performing its everyday tasks. The ending parts, however, do not explicitly store useful information, but have a peculiar structure. 
+## What are telomeres?
+Every living cell has a DNA. The DNA is a long double-stranded chain of four different types of molecules (nucleotides or bases) denoted as A, G, C or T, which store the genetic information. In each cell the DNA is fragmented into a few fragments, each of them called a chromosome. Human cells, for example, each have 23 pairs of chromosomes. The middle parts of each linear chromosome contain information that is used by the cell to produce anything it needs for performing its everyday tasks. The ending parts, however, do not explicitly store useful information, but have a peculiar structure: the telomeres. 
 
-The cell always repairs itself, and most importantly its DNA. If the chromosomes breaks into peaces, say under UV radiation, the cell immediately senses the breaks and glues them back together. The linear chromosomes, however also start and end with breaks and they need to find a way to conceal themselves from this repair process. This is where the telomeres step in. The starting and ending regions of the linear chromosomes have a specific sequence of bases, which allows them to form specific structures: knots. One of the strands in the DNA double-strand is longer than the other: this longer strands folds back onto the short one, forming a knot and saving the chromosome endpoints from being recognized as breaks.  
+The cell always repairs itself, and most importantly its DNA. If the chromosomes breaks into peaces, say under UV radiation, the cell immediately senses the breaks and glues them back together. The linear chromosomes, however also start and end with breaks and they need to find a way to conceal themselves from this repair process. This is where the telomeres step in. The starting and ending regions of the linear chromosomes are called telomeres and have a specific sequence of bases, which allows them to form knot-like structures. The knot is formed becasue one of the telomeric strands is longer than the other and it folds back onto the short one, thus forming a knot and saving the chromosome endpoints from being recognized as breaks.  
 
-This elegant solution to the chromosome endpoint problem, however, leads to yet another peculiarity of telomeres. When the cell wants to divide, it first replicates its DNA: makes two copies of each of the original strands. After making a copy, one of the strands is cut to make it shorter than the other, so that the telomeric knot can be formed. This, however, means that after each round of DNA replication, the telomeres will be cut and will become shorter and shorter. What happens when it gets so short that there are no telomeres left anymore? The cell stops dividing. And when the cells stop dividing, the tissues and organs loose the ability to repair themselves. This is what happens in the organisms of older people. 
+This elegant solution to the chromosome endpoint problem, however, leads to yet another peculiarity of telomeres: they get shorter as we age. Our aging process is accompanied by continues division of our cells. When the cell wants to divide, it first replicates its DNA: makes two copies of each of the original strands. Importantly, after making a copy, one of the strands is cut to make it shorter than the other, so that the telomeric knot can be formed. This, however, means that after each round of DNA replication, the telomeres will be cut and will become shorter and shorter. What happens when telomeres get extremely short? The cell stops dividing. And when the cells stop dividing, the tissues and organs loose the ability to repair themselves. This is what happens in the organisms of older people. 
 
-Now, the sequence of human chromosomes is built up of consecutive repeats of the form: TTAGGG. These repeats concatenated in one telomeric region may span on around 10.000 bases. For your comparison, all the human chromosomes together contain around 3bln bases of DNA. 
+### How long are the telomeres? 
+The sequence of human chromosomes is built up of consecutive repeats of the form: TTAGGG. These repeats concatenated in one telomeric region may span around 10.000 bases. For your comparison, all the human chromosomes together contain around 3bln bases of DNA. 
 
-## Telomeres and diseases 
+## Telomeres and human diseases 
 
 As you may guess, telomere shortening is one of the factors responsible for aging. Not surprisingly, they are also associated with age-related diseases, such as cardiovascular diseases and premature aging syndrome. Smoke, and you'll run the danger of making your telomeres shorter, thus increasing your risk of getting these disorders. 
 
@@ -63,7 +64,11 @@ Yeast are unicellular fungi. They are frequently used in baking to make the doug
 
 As humans, yeast also have linear chromosomes ending with telomeric regions. The telomeres in yeast, however, have a different repeat pattern. This pattern is not strictly defined, but is a motif of the form: (TG){1,7}GGTGTG(G)?. Concatenate multiple repeats like this, each time choosing to repeat (TG) 1-to-7 times and either adding G at the end or not, and you'll get the sequence of yeast telomeres. 
 
-## How to study telomeres
+## How are the telomeres studied? 
+
+Usually, expensive experimental procedures are involved. Most of the techniques involve chemicals that bind to telomeres and emit light, allowing to assess the length of telomeres. These techniques are first of all expensive and time consuming. Secondly, not many labs have performed telomere length measurement during their experiments. Therefore, there is not much data on telomere length coupled with other interesting characteristics. 
+
+On the other hand, people nowadays are talking about the huge amount of genomic (or DNA-sequencing data). These datasets reach petabytes in size and are mostly freely available through public databases. Our aim is to leave the expensive experiments behind and re-use the freely available DNA-sequencing data to study telomeres! 
 
 ## DNA sequencing
 
