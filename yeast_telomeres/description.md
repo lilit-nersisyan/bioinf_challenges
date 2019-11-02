@@ -17,7 +17,7 @@ The rules defining a telomeric string are:
 For example: the following string is a telomeric one. 
 TGTGTGTGGGTGTGGTGTGTGTGTGTGTGGGTGTGGTGTGTGTGTGGGTGTGGGTGTGGTGTGTGTGT 
 
-Below is the break-down of the string. The motifs are defined curly brackets, the motif-parts - within round brackets, while the errors are in square brackets: 
+Below is the break-down of the string. The motifs are defined within curly brackets, the motif-parts - within round brackets, while the errors are in square brackets: 
 
 <pre>
 {(TGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTG)(GGTGTG)(G)} [G]{(TGTG[G]TGTGTGTGT)...}
