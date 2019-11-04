@@ -1,4 +1,4 @@
-# Overview
+# Data overview
 
 - Three chromosomes (DNA strings) have been used to generate the dataset. Each chromosome contains a string from {A,G,C,T,N} library, on the order or 300.000 in length. 
 - Telomeric strings of length from normal distribution (with mean 300 and standard deviation 40) was attached to the two ends of each chromosome. 
