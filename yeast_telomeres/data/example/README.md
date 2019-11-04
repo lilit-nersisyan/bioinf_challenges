@@ -11,4 +11,4 @@ Synthetic reads were generated from it with the following parameters:
 - reads of 150 bases in length
 - 1x coverage (each base is covered ones on average)
 
-The reads are in the [hs25_150bp_1x_chr1%40tel1-261_tel2-253.fq fastq file](https://github.com/lilit-nersisyan/bioinf_challenges/blob/master/yeast_telomeres/data/example/hs25_150bp_1x_chr1%40tel1-261_tel2-253.fq).
+The reads are in the [hs25_150bp_1x_chr1@tel1-261_tel2-253.fq fastq file](https://github.com/lilit-nersisyan/bioinf_challenges/blob/master/yeast_telomeres/data/example/hs25_150bp_1x_chr1%40tel1-261_tel2-253.fq).
