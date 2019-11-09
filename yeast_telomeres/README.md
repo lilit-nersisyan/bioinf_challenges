@@ -40,6 +40,8 @@ Several datasets, with varying numbers of telomeric and non-telomeric reads and 
 The true cumulative length telomeric reads in each dataset will be known a priory. After prediction of cumulative length from several datasets, the accuracy will be determined with the adjusted R squared value of correlation between known and estimated lengths and the root mean squared error. 
 This is a competitive challenge: the accuracy of submissions will be used to determine the winning solution. 
 
+Please [visit the data description page](https://github.com/lilit-nersisyan/bioinf_challenges/tree/master/yeast_telomeres/data) for more details and examples. 
+
 ## Timeline
 
 # Biology: why is this interesting?
