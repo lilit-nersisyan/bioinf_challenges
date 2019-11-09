@@ -1,12 +1,12 @@
 # Overview
-The goal of the yeast telomeres (YT) challenge is to classify strings of given length into two categories: telomeric and non-telomeric. 
+The goal of the yeast telomeres (YT) challenge is to classify strings of given length (a.k.a. reads) into two categories: telomeric and non-telomeric. 
 
-The strings have the following characteristics: 
+The reads have the following characteristics: 
 - They have defined length (from 75 to 300, but constant for the given case). 
-- They are derived from the dictionary {A,G,C,T,N}. 
+- They are derived from the {A,G,C,T,N} dictionary. 
 
 
-The rules defining a telomeric string are:  
+The rules defining a telomeric reads are:  
 - They largely consist of telomeric motifs 
 - A telomeric motif is defined by the rule: (TG){1,7}GGTGTG(G)?
 - The beginning of the string may lack telomeric motifs 
@@ -14,10 +14,11 @@ The rules defining a telomeric string are:
 - The motifs may have errors: substitution (replacement of one character with another from the dictionary {A,G,C,T,N}), insertion (a novel character in-between motif characters) or deletion (removal of one character)
 
 ## Example
-For example: the following string is a telomeric one. 
+For example, the following string is a telomeric one:
+<pre>
 TGTGTGTGGGTGTGGTGTGTGTGTGTGTGGGTGTGGTGTGTGTGTGGGTGTGGGTGTGGTGTGTGTGT 
-
-Below is the break-down of the string. The motifs are defined within curly brackets, the motif-parts - within round brackets, while the errors are in square brackets: 
+</pre>
+Below is the break-down of the string into motifs defined within curly brackets. The sub-motifs are within round brackets, while the errors are in square brackets: 
 
 <pre>
 {(TGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTGTGTG)(GGTGTG)(G)} {(TGTGTGTGTG)(GGTGTG)(G)} [G]{(TGTG[G]TGTGTGTGT)...}
@@ -32,11 +33,11 @@ TAGGGTAGTGTTAGGGTAGTGTTAGGGTAGTGTGGTGTGGTGTGTGGGTGTGGGTGTGGGTGTGTGTGTGGGTGTGGTGT
 </pre>
 
 ## Challenge question
-Given a set of telomeric and non-telomeric strings, determine the nature of the strings and submit the number of telomeric strings as your answer. 
+Given a set of telomeric and non-telomeric reads, determine the nature of each of the reads and submit the cumulative length of the telomeric reads as your answer. The length is computed with a formula provided in the data description document. 
 
 ## Challenge data
-Several datasets, with varying numbers of telomeric and non-telomeric strings and with different lengths and error-rates will be provided. The number of strings in each dataset will be on the order of 1M. 
-The true number of telomeric strings will be known a priory. The adjusted R squared value of correlation between known and predicted numbers will be used for estimating the accuracy. 
+Several datasets, with varying numbers of telomeric and non-telomeric reads and with different lengths will be provided. The number of reads in each dataset will be on the order of 20.000. 
+The true cumulative length telomeric reads in each dataset will be known a priory. After prediction of cumulative length from several datasets, the accuracy will be determined with the adjusted R squared value of correlation between known and estimated lengths and the root mean squared error. 
 This is a competitive challenge: the accuracy of submissions will be used to determine the winning solution. 
 
 ## Timeline
