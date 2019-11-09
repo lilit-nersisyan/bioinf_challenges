@@ -2,9 +2,9 @@
 
 - Three chromosomes (DNA strings) have been used to generate the dataset. Each chromosome contains a string from {A,G,C,T,N} library, on the order or 300.000 in length. 
 - Telomeric strings of length from normal distribution (with mean 300 and standard deviation 40) was attached to the two ends of each chromosome. 
-- The telomere-containing chromosomes were then randomly sheared into predefined length-fragments, with a default rate of errors introduced by the ART tool. 
-- The datasets will be provided in the form of fastq formatted files, which contain the strings (further reffered as reads) to be classified. The format of fastq files is described below. Apart from the read sequences it also contains information on the quality of each base (letter). If the quality is low, it is likely that there's an error at that position. It is up to you to decide whether or not to use the quality information.
-- The option "coverage" determines how many times each base in the original chromosome sequence is included in the produced reads. The values 1 and 10 have been used in the provided datasets.
+- The telomere-containing chromosomes were then randomly sheared into predefined length-fragments, with a small rate (<1%) of errors introduced. 
+- The datasets will be provided in the form of fastq formatted files, which contain the reads to be classified. The format of fastq files is described below. Apart from the read sequences it also contains information on the quality of each base (letter). If the quality is low, it is likely that there's an error at that position. It is up to you to decide whether or not to use the quality information.
+- The option "coverage" determines how many times each base in the DNA sequence is read during the sequencing process. The sequencing is usually carried out from multiple DNA molecules, each sheared into small fragments that produce short reads. These reads may have overlapping regions, which are thus regions sequenced more than once. If the DNA regions are on average sequenced once (almost no fragment overlaps), the coverage equals to 1, if the it is sequenced on average 10 times (10 regions overlap at each position), then the coverage has the value of 10. 
 - Your task is to classify the reads into telomeric and non-telomeric ones, and compute their average length with the formula given below.
 - The predicted and true values of telomere length (L) will be compared to determine the winner. 
 
