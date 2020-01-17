@@ -40,6 +40,11 @@ distance from T: 6543210
 Now, we assume that each character A and T has their own influence on counts from a certain distance from them. Say, the counts peak for A and T at distance -2 from them.  
 However this peak is not visible for A, because of mixture of counts from T. At distances -2 and -1 from A, the counts are equal: 8. In other words, the count at distance -2 from A is not visible, because of the neighboring T, that adds additional counts at the distance -1 from A. 
 
+**The task**
+
+The task is vague. Can we somehow deconvolute the final count vectors A (0011884), T (4435930) and the rest 18 characters? 
+Say, can we estimate and reduce the influence of T from all the vectors?
+
 **A better illustration of the problem**
 
 We usually expect uniform counts for each character: 
@@ -49,8 +54,4 @@ But when one of the characters (X) drastically influences counts at position -17
 
 ![Biased_counts](https://github.com/lilit-nersisyan/bioinf_challenges/blob/master/figures/biased_counts.jpg)
 
-**The task**
-
-The task is vague. Can we somehow deconvolute the final count vectors A (0011884), T (4435930) and the rest 18 characters? 
-Say, can we estimate and reduce the influence of T from all the vectors?
 
