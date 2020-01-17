@@ -1,7 +1,7 @@
 We are given strings from a library of 20 different characters. These strings correspond to count vectors - each position in a string has a count. 
 We then construct count vectors of length 30 for each character, which indicate cumulative counts across the input strings at positions -30 to 0 relative to the character. 
 For example, below you see counts for two different characters A and T. The x axis reflects the distance from the character, the y axis is the cumulative count. 
-![Count vectors for two characters: A and T](https://github.com/lilit-nersisyan/bioinf_challenges/blob/master/figures/count_vectors.jpeg)
+![Count vectors for two characters: A and T](https://github.com/lilit-nersisyan/bioinf_challenges/blob/master/figures/count_vectors.jpg)
 
 The problem here is that the A count vector contains a mix from T counts. 
 
