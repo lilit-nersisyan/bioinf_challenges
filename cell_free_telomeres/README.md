@@ -25,6 +25,6 @@ On the other hand, people nowadays are talking about huge amounts of genomic (or
 ## DNA sequencing
 DNA sequencing is the process of obtaining or reading the sequence of bases in a DNA strand. The second generation of sequencing machines does it by randomly shearing the DNA molecules (of length 75-250 bases on average), and reading those sequences. The readings are called sequencing reads. The main problem of sequencing datasets is that the origin of the reads is no known, so one has to identify their origin by complicated bioiformatics algorithms. Telomeric sequences pose particular problems, as they are of repetitive nature. 
 
-This challenge will help to easily classify reads derived from the telomeric DNA regions from sequencing datasets, and thus to compute the length of telomeres. All in all, your solution will be a real contribution to the field of bioiformatics and telomere biology! Have fun! 
+The challenge of studying telomeres from DNA sequencing datasets is to distinguish reads derived from the telomeric DNA regions from those coming from the rest of the genome.
 
 ![DNA sequencing and the task](https://github.com/lilit-nersisyan/bioinf_challenges/blob/master/figures/sequencing_reads.png)
