@@ -16,11 +16,6 @@ What about cancer cells? Well these cells can make their telomeres longer! That 
 ### How long are the telomeres? 
 The sequence of human chromosomes is built up of consecutive repeats of the form: TTAGGG. These repeats concatenated in one telomeric region may span around 10.000 bases. For your comparison, all the human DNA altogether contains around 3bln bases of DNA. 
 
-## Yeast telomeres
-Yeast are unicellular fungi. They are frequently used in baking to make the dough soft and porous. Besides being useful in the kitchen, they are also great model organisms used by biologists in their laboratories. Even though yeast are not similar to us by their looks, the basic molecular events and processes largely resemble those in human cells. Therefore, studying telomeres in yeast will provide clues on how to control telomere length in humans too.
-
-The telomeres in yeast, have a not so strictly defined repeat pattern. It is a motif of the form: (TG){1,7}GGTGTG(G)?. Concatenate multiple repeats like this (to the length of around 300 bases), each time choosing to repeat (TG) 1-to-7 times and either adding G at the end or not, and you'll get the sequence of yeast telomeres. 
-
 ## How are the telomeres studied? 
 
 Usually, expensive experimental procedures are involved. Most of the techniques involve chemicals that bind to telomeres and emit light, allowing to assess the length of telomeres. These techniques are first of all expensive and time consuming. Secondly, not many labs have performed telomere length measurement during their experiments. Therefore, there is not much data on telomere length coupled with other interesting characteristics. 
